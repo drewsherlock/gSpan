@@ -339,7 +339,7 @@ class gSpan(object):
                     'support': [self._support],
                     'description': [display_str],
                     'num_vert': self._DFScode.get_num_vertices(),
-                    'where': [list(set([p.gid for p in projected])]),
+                    'where': [list(set([p.gid for p in projected])])],
                 },
                 index=[int(repr(self._counter)[6:-1])]
             )
